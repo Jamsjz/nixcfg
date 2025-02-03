@@ -1,0 +1,209 @@
+{ config, lib, pkgs, ... }:
+{
+  environment.systemPackages = with pkgs; [
+
+    #Browsers
+    laravel
+    obs-studio
+
+    antlr
+    obsidian
+    heroic
+    presenterm
+    present
+    python310Packages.pynvim
+    ripgrep
+    slides
+    tree
+    tree-sitter
+    ttyper
+    weka
+    yazi
+
+
+    tree
+    ttyper
+    cava
+    sushi
+    weka
+
+    #LSP
+    htmx-lsp
+    udiskie
+    gopls
+    nautilus
+    marksman
+    emmet-ls
+    nil
+    ruff
+    ruff-lsp
+    eslint_d
+    tree-sitter
+    php84Packages.composer
+    go
+    php84Packages.phpstan
+    php84
+    php84Extensions.pgsql
+    php84Extensions.mysqli
+    php84Extensions.sqlite3
+    php84Extensions.pdo_sqlite
+    php84Extensions.pdo_pgsql
+    phpactor
+    lua-language-server
+    luajitPackages.luarocks_bootstrap
+    luajitPackages.luarocks
+    nginx-language-server
+    dot-language-server
+    blade-formatter
+    pyright
+    bash-language-server
+    rustywind
+    shellcheck
+    shfmt
+    stylua
+    tailwindcss
+    tailwindcss-language-server
+    prettierd
+    python312Packages.debugpy
+    black
+    markdownlint-cli2
+    nodejs
+    texliveTeTeX
+    tetex
+    libreoffice-qt6
+    conda
+    anydesk
+    obsidian
+    ripgrep
+    chromium
+    geogebra
+    texliveFull
+    tor-browser
+    qemu
+    qemu_kvm
+    qemu-utils
+    hugo
+    qutebrowser
+
+    brave
+    librewolf
+    home-manager
+    lua
+    waypaper
+    fish
+    bat
+
+    #System Tools
+    unzip
+    zip
+    stow
+    gnumake
+    yabridgectl
+    yabridge
+    killall
+    overskride
+    python3
+    protonvpn-gui
+    proton-vpn-local-agent
+    playerctl
+    envsubst
+    blueman
+    lazygit
+    usbutils
+
+    #Developement Tools
+    reaper
+
+    #Rust
+    cargo
+
+    #Password Manager
+    keepassxc
+
+    #Sound 
+    pamixer
+    pavucontrol
+
+
+    #music
+    spotify
+    wl-clipboard
+    networkmanagerapplet
+    virt-manager
+
+    #git packages
+    gh
+    git
+
+
+    #hyprland packages
+    hyprlock
+    hyprpicker
+    dunst
+    rofi-wayland
+    swww
+    swappy
+    cliphist
+    libsForQt5.qt5ct
+    qt6ct
+    nwg-look
+    slurp
+    imagemagick
+    libnotify
+    gcc
+    cmake
+    clang
+    stremio
+
+
+    #Terminal commands and packages
+    parallel
+    jq
+    eza
+    lsd
+    starship
+    brightnessctl
+    zoxide
+    fzf
+    fd
+    tmux
+    fastfetch
+
+    #Editors
+    vim
+    vscode
+
+    #File Manager
+    xfce.thunar
+    xfce.tumbler
+        libsForQt5.qtstyleplugin-kvantum
+
+        ffmpeg
+        alejandra
+        clang-tools
+        dolphin
+        grimblast
+
+  motrix
+  nix-ld-rs
+  nixd
+  rust-analyzer
+  rustup
+  helix
+  stylua
+  vale
+  vlc
+  waybar
+  yt-dlp
+  zathura
+
+  thunderbird
+  discord-canary
+  
+  ];
+  services.udisks2.enable = true;
+  services.gvfs.enable = true;
+  services.gnome.gnome-online-accounts.enable = true;
+  services.accounts-daemon.enable = true;
+
+}
