@@ -19,8 +19,6 @@
     ttyper
     weka
     yazi
-
-
     tree
     ttyper
     cava
@@ -69,6 +67,7 @@
     markdownlint-cli2
     nodejs
     texliveTeTeX
+    texlive.combined.scheme-full
     tetex
     libreoffice-qt6
     conda
@@ -77,7 +76,6 @@
     ripgrep
     chromium
     geogebra
-    texliveFull
     tor-browser
     qemu
     qemu_kvm
