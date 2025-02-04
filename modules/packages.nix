@@ -67,6 +67,7 @@
     markdownlint-cli2
     nodejs
     texliveTeTeX
+    texlab
     texlive.combined.scheme-full
     tetex
     texstudio
