@@ -69,6 +69,8 @@
     texliveTeTeX
     texlive.combined.scheme-full
     tetex
+    # texworks
+    texstudio
     libreoffice-qt6
     conda
     anydesk
