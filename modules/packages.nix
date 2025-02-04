@@ -69,8 +69,11 @@
     texliveTeTeX
     texlive.combined.scheme-full
     tetex
-    # texworks
     texstudio
+    mpvpaper
+    mpv-subs-popout
+    mpv
+    mpv-shim-default-shaders
     libreoffice-qt6
     conda
     anydesk
