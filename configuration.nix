@@ -4,7 +4,6 @@
     [
       ./hardware-configuration.nix
       ./nvidia.nix
-      ./modules/vm.nix
       ./modules/boot.nix
       ./modules/nix-config.nix
       ./modules/packages.nix
