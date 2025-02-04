@@ -133,7 +133,14 @@
     spotify
     wl-clipboard
     networkmanagerapplet
+    # vm
     virt-manager
+    virt-viewer
+    spice
+    spice-gtk
+    spice-protocol
+    win-virtio
+    win-spice
 
     #git packages
     gh
@@ -180,29 +187,29 @@
     #File Manager
     xfce.thunar
     xfce.tumbler
-        libsForQt5.qtstyleplugin-kvantum
+    libsForQt5.qtstyleplugin-kvantum
 
-        ffmpeg
-        alejandra
-        clang-tools
-        dolphin
-        grimblast
+    ffmpeg
+    alejandra
+    clang-tools
+    dolphin
+    grimblast
 
-  motrix
-  nix-ld-rs
-  nixd
-  rust-analyzer
-  rustup
-  helix
-  stylua
-  vale
-  vlc
-  waybar
-  yt-dlp
-  zathura
+    motrix
+    nix-ld-rs
+    nixd
+    rust-analyzer
+    rustup
+    helix
+    stylua
+    vale
+    vlc
+    waybar
+    yt-dlp
+    zathura
 
-  thunderbird
-  discord-canary
+    thunderbird
+    discord-canary
   
   ];
   services.udisks2.enable = true;
