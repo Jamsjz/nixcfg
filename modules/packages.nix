@@ -85,6 +85,8 @@
     tor-browser
     qemu
     qemu_kvm
+    speedcrunch
+    galculator 
     qemu-utils
     hugo
     qutebrowser
