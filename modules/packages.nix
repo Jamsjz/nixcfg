@@ -5,6 +5,9 @@
     #Browsers
     laravel
     obs-studio
+    obs-cli
+    obs-do
+    obs-cmd
 
     antlr
     obsidian
@@ -78,7 +81,6 @@
     libreoffice-qt6
     conda
     anydesk
-    obsidian
     ripgrep
     chromium
     geogebra
