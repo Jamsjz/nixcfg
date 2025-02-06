@@ -8,6 +8,7 @@
     obs-cli
     obs-do
     obs-cmd
+    auto-cpufreq
 
     antlr
     obsidian
@@ -220,5 +221,6 @@
   services.gvfs.enable = true;
   services.gnome.gnome-online-accounts.enable = true;
   services.accounts-daemon.enable = true;
+  services.auto-cpufreq.enable = true;
 
 }
