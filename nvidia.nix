@@ -38,7 +38,7 @@
     # usually from Intel, for lightweight tasks to save power,
     # and the discrete Nvidia GPU for performance-intensive tasks.
     prime = {
-      sync.enable = true;
+      # sync.enable = true;
   		offload = {
   			enable = true;
   			enableOffloadCmd = true;

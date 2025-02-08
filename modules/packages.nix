@@ -212,9 +212,18 @@
     waybar
     yt-dlp
     zathura
+    adwaita-icon-theme
 
     thunderbird
     discord-canary
+    (lutris.override{
+      extraPkgs = pkgs: [
+        # list 
+      ];
+      extraLibraries = pkgs: [
+
+      ];
+    })
   
   ];
   services.udisks2.enable = true;
