@@ -9,6 +9,7 @@
     obs-do
     obs-cmd
     auto-cpufreq
+    pywalfox-native
 
     antlr
     obsidian
@@ -236,5 +237,12 @@
     enable = true;
     acceleration = "cuda";
   };
+  systemd.extraConfig = "DefaultLimitNOFILE=524288";
+  security.pam.loginLimits = [{
+    domain = "viola";
+    type = "hard";
+    item = "nofile";
+    value = "524288";
+  }];
   services.open-webui.enable=true;
 }
