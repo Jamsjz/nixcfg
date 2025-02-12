@@ -227,22 +227,4 @@
     })
   
   ];
-  services.udisks2.enable = true;
-  services.gvfs.enable = true;
-  services.gnome.gnome-online-accounts.enable = true;
-  services.accounts-daemon.enable = true;
-  services.auto-cpufreq.enable = true;
-
-  services.ollama = {
-    enable = true;
-    acceleration = "cuda";
-  };
-  systemd.extraConfig = "DefaultLimitNOFILE=524288";
-  security.pam.loginLimits = [{
-    domain = "viola";
-    type = "hard";
-    item = "nofile";
-    value = "524288";
-  }];
-  services.open-webui.enable=true;
 }
