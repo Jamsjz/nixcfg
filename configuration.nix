@@ -8,6 +8,7 @@
       ./modules/nix-config.nix
       ./modules/packages.nix
       ./modules/user.nix
+      ./modules/emacs.nix
       ./modules/hyprland.nix
       ./modules/services.nix
       ./modules/sound.nix
