@@ -5,6 +5,7 @@
     #Browsers
     laravel
     obs-studio
+    (aspellWithDicts (dicts: with dicts; [ en en-computers en-science es]))
     obs-cli
     obs-do
     obs-cmd
