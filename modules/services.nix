@@ -32,7 +32,9 @@
       enable = true;
       interval = "weekly";
     };
-    displayManager.sddm.enable = true;
+    displayManager.sddm={
+      enable = false;
+    };
     open-webui.enable=true;
     udisks2.enable = true;
     gvfs.enable = true;
