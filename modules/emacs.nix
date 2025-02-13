@@ -4,8 +4,4 @@
     enable = true;
     package = pkgs.emacs;
   };
-  programs.direnv = {
-    enable = true;
-  };
-
 }
