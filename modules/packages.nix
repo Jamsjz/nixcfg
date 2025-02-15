@@ -10,6 +10,7 @@
     obs-do
     obs-cmd
     auto-cpufreq
+    google-chrome
     pywalfox-native
 
     antlr
