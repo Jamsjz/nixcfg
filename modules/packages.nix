@@ -11,6 +11,7 @@
     obs-cmd
     auto-cpufreq
     google-chrome
+    gparted
     pywalfox-native
 
     antlr
