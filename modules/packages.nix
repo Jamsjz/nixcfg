@@ -12,22 +12,33 @@
     auto-cpufreq
     google-chrome
     gparted
+    rrtudio
+    R
+    markdown-oxide
     pywalfox-native
+    vscode-langservers-extracted
+    balena-cli
+    corefonts
+    inkscape
+    isoimagewriter
+    djlint
+    presenterm
+    slides
+    tldr
+    ttyper
+    ventoy
 
     antlr
     obsidian
     heroic
     presenterm
     present
-    python310Packages.pynvim
+    python312Packages.pynvim
     ripgrep
     slides
     tree
-    tree-sitter
-    ttyper
     weka
     yazi
-    tree
     ttyper
     cava
     sushi
