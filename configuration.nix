@@ -71,10 +71,10 @@
   };
 
 
-environment.variables = {
-    QT_STYLE_OVERRIDE = "kvantum";
-    QT_QPA_PLATFORMTHEME = "qt5ct";     
-  };
+# environment.variables = {
+#     # QT_STYLE_OVERRIDE = "kvantum";
+#     # QT_QPA_PLATFORMTHEME = "qt5ct";     
+#   };
 
   # Users
   nixpkgs.config.allowUnfree = true;

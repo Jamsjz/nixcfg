@@ -9,16 +9,37 @@
     obs-cli
     obs-do
     obs-cmd
+    geckodriver
+    python312Packages.jupytext
+    cinnamon-menus
+    cinnamon-common
+    cinnamon-desktop
+    cinnamon-session
+    lightdm_qt
+    cinnamon-screensaver
+    cinnamon-control-center
+    cinnamon-settings-daemon
+    cinnamon-translations
+    nemo
+    nemo-with-extensions
+    mint-artwork
+    mint-themes
+    mint-l-icons
+    mint-cursor-themes
+    luajit
     auto-cpufreq
     google-chrome
     gparted
-    rrtudio
+    caprine-bin
+    rstudio
     R
     markdown-oxide
     pywalfox-native
     vscode-langservers-extracted
     balena-cli
     corefonts
+    wl-gammarelay-applet
+    wl-gammarelay-rs
     inkscape
     isoimagewriter
     djlint
@@ -52,8 +73,6 @@
     marksman
     emmet-ls
     nil
-    ruff
-    ruff-lsp
     eslint_d
     tree-sitter
     php84Packages.composer
@@ -67,8 +86,6 @@
     php84Extensions.pdo_pgsql
     phpactor
     lua-language-server
-    luajitPackages.luarocks_bootstrap
-    luajitPackages.luarocks
     nginx-language-server
     dot-language-server
     blade-formatter

@@ -23,7 +23,6 @@
 
     xserver = {
       enable = true;
-      displayManager.lightdm.enable = false;
     };
 
     libinput.enable = true;
@@ -32,9 +31,12 @@
       enable = true;
       interval = "weekly";
     };
-    displayManager.sddm={
-      enable = false;
+    xserver.displayManager.gdm={
+      enable = true;
+      wayland= true;
     };
+
+    xserver.desktopManager.cinnamon.enable = true;
     open-webui.enable=true;
     udisks2.enable = true;
     gvfs.enable = true;
